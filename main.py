@@ -4,6 +4,7 @@ from logger import logger
 import pulsar
 from config import PULSAR_URL, TOKEN, TOPIC, SUBSCRIPTION_NAME
 from message_processor import MessageProcessor
+# adding test comment
 class PulsarClient:
     def __init__(self, url, token):
         self.client = pulsar.Client(
